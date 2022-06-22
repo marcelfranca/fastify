@@ -102,7 +102,7 @@ jobs:
       - name: Run tests
         run: |
           npm run test:ci
-
+    
   automerge:
     if: >
         github.event_name == 'pull_request' &&
